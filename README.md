@@ -4,7 +4,7 @@
 # CKA-Exercises
 
 <p align="center">
-  <img width="300" src="cka-logo.png">
+  <img width="360" src="cka-logo.png">
 </p>
 
 A set of curated exercises to help prepare you for the Certified Kubernetes Administrator Exam by the Cloud Native Computing Foundation
