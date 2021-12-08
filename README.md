@@ -2,6 +2,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # CKA-Exercises
+
+<p align="center">
+  <img width="360" src="cka-logo.png">
+</p>
+
 A set of curated exercises to help prepare you for the Certified Kubernetes Administrator Exam by the Cloud Native Computing Foundation
 
 ## Contributing
