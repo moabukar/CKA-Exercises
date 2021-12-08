@@ -59,3 +59,44 @@ kubectl get services
 ```sh
 kubectl expose deploy <deployname> --port=80 --type=NodePort > type can be ClusterIP/NodePort/LoadBalancer (if using a cloud-native cluster)
 ```
+
+# ConfigMaps
+
+```sh
+kubectl create cm <configmapname> --from-file=<file.txt>
+kubectl get cm <configmapname> -o yaml
+```
+
+# Volumes
+
+```sh
+kubectl get pv
+kubectl get pvc
+```
+
+# Ingress
+```sh
+kubectl get ingress OR kubectl get ing
+kubectl 
+```
+
+# Horizontal Pod Autoscaler HPA
+```sh
+kubectl get hpa
+kubectl autoscale deployment <name> --min=2 --max=8
+kubectl autoscale deployment <name> --max=3 --cpu-percent=60
+```
+# Role-Based Access Control
+```sh
+kubectl create role <rolename> --verb=create,get,update,delete --resource=pods,deployments,services
+kubectl create rolebinding foo --role=<rolename> --serviceaccount=namespace:serviceaccountname
+kubectl get rolebinding foo -o yaml
+
+# Any Troubleshooting useful commands
+
+```sh
+kubectl logs <podname>
+kubectl get events
+kubectl exec -it <podname> -- sh
+```
+
