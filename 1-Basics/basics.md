@@ -23,6 +23,26 @@ kubectl apply -f firstpod.yaml
 
 vi firstdeploy.yaml 
 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: deploy1
+  name: deploy1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: deploy1
+  template:
+    metadata:
+      labels:
+        app: deploy1
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
 
 
+kubectl apply -f firstdeploy.yaml
 ```
