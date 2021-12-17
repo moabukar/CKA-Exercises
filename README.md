@@ -87,3 +87,5 @@ A set of curated exercises to help prepare you for the Certified Kubernetes Admi
 ### Further reading
 
 ### Other Useful repos
+
+- [CKA repo by Walid Shaari](https://github.com/walidshaari/Kubernetes-Certified-Administrator)
