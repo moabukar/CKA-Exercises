@@ -7,6 +7,8 @@
   <img width="360" src="ckalogo1.jpeg">
 </p>
 
+Note: The repository is currently not compelete and we are working on trying to get good content out very soon. Thank you for your patience!
+
 A set of curated exercises to help prepare you for the Certified Kubernetes Administrator Exam by the Cloud Native Computing Foundation
 
 ## Contributing
