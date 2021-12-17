@@ -31,7 +31,7 @@ A set of curated exercises to help prepare you for the Certified Kubernetes Admi
 - k = kubectl
 - SVC = Service
 
-## [Core Concepts)](1-Basics)
+## [Core Concepts](1-Basics)
 
 - Some basics of K8s and references to other useful repos
 
