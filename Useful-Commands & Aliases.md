@@ -36,7 +36,7 @@ kubectl get pod <podname> -o wide
 kubectl describe pod <podname>
 ```
 
-# Creating Deployments
+# Creating Pods
 ```sh
 kubectl run <podname> --image=nginx
 ```
